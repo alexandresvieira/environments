@@ -4,12 +4,12 @@
 forge "https://forgeapi.puppetlabs.com";
 
 mod 'alexandresvieira-confsbase'
-#mod '<user_puppetforge>-memcached'
-#mod '<user_puppetforge>-mysqlserver'
+mod 'alexandresvieira-memcached'
+mod 'alexandresvieira-mysqlserver'
 
-#mod 'puppet-webserver',
-  #:git => 'https://github.com/<user_github>/puppet-webserver.git',
-  #:branch => 'homolog'
+mod 'puppet-webserver',
+  :git => 'https://github.com/alexandresvieira/puppet-webserver.git',
+  :branch => 'production'
 
 #mod 'puppet-balancer',
   #:git => 'https://github.com/<user_github>/puppet-balancer.git',
