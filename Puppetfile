@@ -3,8 +3,7 @@
 
 forge "https://forgeapi.puppetlabs.com";
 
-mod 'alexadresvieira-confsbase'
-#mod '<user_puppetforge>-confsbase'
+mod 'alexandresvieira-confsbase'
 #mod '<user_puppetforge>-memcached'
 #mod '<user_puppetforge>-mysqlserver'
 
